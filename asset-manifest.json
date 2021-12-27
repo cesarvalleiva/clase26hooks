@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/clase26hooks/static/css/main.53245f08.css",
+    "main.js": "/clase26hooks/static/js/main.ef35eef4.js",
+    "static/js/787.1734bb87.chunk.js": "/clase26hooks/static/js/787.1734bb87.chunk.js",
+    "index.html": "/clase26hooks/index.html",
+    "main.53245f08.css.map": "/clase26hooks/static/css/main.53245f08.css.map",
+    "main.ef35eef4.js.map": "/clase26hooks/static/js/main.ef35eef4.js.map",
+    "787.1734bb87.chunk.js.map": "/clase26hooks/static/js/787.1734bb87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53245f08.css",
+    "static/js/main.ef35eef4.js"
+  ]
+}
