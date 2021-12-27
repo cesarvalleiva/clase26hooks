@@ -5,11 +5,15 @@ const Navbar = () => {
     const [nombre, setNombre] = useState('Rodolfo');
     const [apellido, setApellido] = useState('Lopez')
 
-    console.log(`Nombre: ${nombre}`)
-    console.log(`Apellido: ${apellido}`)
+    // console.log(`Nombre: ${nombre}`)
+    // console.log(`Apellido: ${apellido}`)
 
     const cambiarNombre = () => {
         setNombre('Jorge');
+    }
+
+    const cambiarNombreInput = (e) => {
+        console.log(e)
     }
 
     useEffect(() => {
@@ -28,6 +32,9 @@ const Navbar = () => {
             <button className='btn btn-danger ms-2' onClick={() => setApellido('Garcia')}>
                 Cambiar apellido
             </button>
+
+            <input type="text" onChange={(e) => setNombre(e.target.value)} placeholder="nombre" />
+            {nombre}
         </>
      );
 }
